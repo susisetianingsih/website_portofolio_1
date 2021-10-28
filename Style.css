@@ -1,0 +1,24 @@
+.jumbotron{
+	background-size: cover;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+	background-color: azure;
+}
+#about{
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+}
+#resume{
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+	background-color: azure;
+}
+#desain{
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+}
+#contact{
+	padding-top: 6rem;
+	padding-bottom: 2rem;
+	background-color: azure;
+}
