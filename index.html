@@ -409,19 +409,15 @@
     <script language="javascript">
       function cekisi(){
         if (document.tugaspw.name.value=="") {
-          alert ('Nama harus diisi terlebih dahulu');
           document.tugaspw.name.focus();
           return false;
         } else if (document.tugaspw.email.value=="") {
-          alert ('Email harus diisi terlebih dahulu');
           document.tugaspw.email.focus();
           return false;
         } else if (document.tugaspw.password.value=="") {
-          alert ('Password harus diisi terlebih dahulu');
           document.tugaspw.password.focus();
           return false;
         } else if (document.tugaspw.repassword.value=="") {
-          alert ('Retype Password harus diisi terlebih dahulu');
           document.tugaspw.repassword.focus();
           return false;
         } else if (document.tugaspw.repassword.value != document.tugaspw.password.value) {
