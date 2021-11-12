@@ -400,19 +400,19 @@
 
     <script language="javascript">
       function cekisi(){
-        if (document.tugaspw.name.value=="") {
+        if (document.tugaspw.name.value==="") {
           document.tugaspw.name.focus();
           return false;
-        } else if (document.tugaspw.email.value=="") {
+        } else if (document.tugaspw.email.value==="") {
           document.tugaspw.email.focus();
           return false;
-        } else if (document.tugaspw.password.value=="") {
+        } else if (document.tugaspw.password.value==="") {
           document.tugaspw.password.focus();
           return false;
-        } else if (document.tugaspw.repassword.value=="") {
+        } else if (document.tugaspw.repassword.value==="") {
           document.tugaspw.repassword.focus();
           return false;
-        } else if (document.tugaspw.repassword.value != document.tugaspw.password.value) {
+        } else if (document.tugaspw.repassword.value !== document.tugaspw.password.value) {
           alert ('Password yang Anda masukan tidak sama');
           document.tugaspw.repassword.focus();
           return false;
