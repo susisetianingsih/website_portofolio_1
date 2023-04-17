@@ -1,2 +1,1 @@
-# susisetianingsih.github.io
-Tugas Curriculum Vitae Semeseter 1_Vers2
+Demo website: https://susisetianingsih.github.io/
